@@ -2,11 +2,13 @@ import java.io.File;
 import java.util.*;
 
 import static java.lang.System.out;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
 
+public class WordReduce {
 //Shang Ke
 //Processing Big Data HW2 Word Count w/o MapReduce
-public class WordCount {
-
+    public mapper
     public static void main(String[] args) throws Exception {
         // write your code here
         String[] toSearch={"Chicago","Dec","Java","hackathon"};
